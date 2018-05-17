@@ -17,7 +17,7 @@ public class Player {
 
 	public Player(String nameIn) {
 		this.name = nameIn;
-		System.out.println("Does this print");
+		System.out.println("in named Player constructor.");
 
 	}
 
