@@ -3,7 +3,25 @@ package objects;
 import java.util.Random;
 
 public class Dice {
-	public int dieRoll;
+	private int dieRoll;
+	
+	
+
+	public int getDieRoll() {
+		return dieRoll;
+	}
+
+	public void setDieRoll(int dieRoll) {
+		this.dieRoll = dieRoll;
+	}
+
+	public Random getRandom() {
+		return random;
+	}
+
+	public void setRandom(Random random) {
+		this.random = random;
+	}
 
 	Random random = new Random();
 
