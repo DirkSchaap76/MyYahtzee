@@ -1,0 +1,49 @@
+Version 1.0
+
+Description
+
+Objectives: 
+
+
+functional goal: 
+
+1 create a player object
+ 	print out playerName
+
+2 create a die
+	print out a die roll
+
+3 create a cup
+	let the object printout a die
+
+4 create a ScoreCard object
+	print out score 
+		
+
+5 create a game object
+	print out a player from game object
+
+technical implementation:
+
+1 create a player class
+ 	create a new player in program
+ 		create a String field: playerName
+
+2 create a die class
+	create a new die in program
+		create a field called dieRoll of type: byte
+
+3 create a class Cup
+	create a field of type Die
+		create object Die
+			Sysout object+die+dieRoll
+
+4 create a ScoreCard class
+	create a Score object in program
+		create a field "score" of type int
+			add a score variable to object score
+				create a player field
+					
+
+5 create a class Game
+	create a new Game() in program
