@@ -19,4 +19,8 @@ public class Die {
 		dieRoll = (byte) ((r.nextInt(6)) + 1);
 	}
 
+	public byte rollDie() {
+		return new Die().getDieRoll();
+	}
+
 }

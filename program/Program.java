@@ -10,9 +10,8 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		Die dieOne = new Die();
-		System.out.println(dieOne.getDieRoll());
-
+		Player playerOne = new Player();
+		playerOne.playerBuilder();
 	}
 
 }
