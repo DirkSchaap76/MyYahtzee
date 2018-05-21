@@ -1,10 +1,11 @@
 package objects;
 
-import java.util.Random;
+import program.MyUtil;
 
 public class Die {
-	Random r = new Random();
 	private byte dieRoll;
+
+	MyUtil utilities = new MyUtil();
 
 	public byte getDieRoll() {
 		return dieRoll;
@@ -16,7 +17,8 @@ public class Die {
 
 	public Die() {
 
-		dieRoll = (byte) ((r.nextInt(6)) + 1);
+		dieRoll = (byte) ((utilities.random.nextInt(6)) + 1);
+
 	}
 
 	public byte rollDie() {
