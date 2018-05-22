@@ -23,10 +23,11 @@ public class Player {
 		this.playerName = playerName;
 	}
 
-	public void playerBuilder() {
-		System.out.println("Enter player name: ");
-		new Player(scanner.nextLine());
-
-	}
+	/*
+	 * public void playerBuilder() { System.out.println("Enter player name: "); new
+	 * Player(scanner.nextLine());
+	 * 
+	 * }
+	 */
 
 }

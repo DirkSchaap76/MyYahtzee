@@ -6,7 +6,7 @@ public class Cup {
 
 	public void cupMethod() {
 
-		System.out.println("not sure what to do here yet.");
+		System.out.println("cupMethod(): not sure what to do here yet.");
 
 	}
 

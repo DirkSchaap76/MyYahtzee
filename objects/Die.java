@@ -19,6 +19,7 @@ public class Die {
 	public Die() {
 
 		dieRoll = (byte) ((utilities.random.nextInt(6)) + 1);
+		System.out.println(dieRoll);
 
 	}
 

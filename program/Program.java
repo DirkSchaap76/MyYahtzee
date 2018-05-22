@@ -10,8 +10,13 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		testFunctionality();
+	}
+
+	static void testFunctionality() {
 		Game gameOne = new Game();
 		gameOne.runGame();
+
 	}
 
 }

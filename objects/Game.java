@@ -10,10 +10,14 @@ public class Game {
 
 	public void runGame() {
 		System.out.println("Game is running");
-		new Player("piet").getPlayerName();
-		new Cup().cupMethod();
-		new ScoreCard().keepScore();
-		System.out.println(new Die().getDieRoll());
+		Player playerOne = new Player("Klaas");
+		Cup cupOne = new Cup();
+		cupOne.cupMethod();
+		ScoreCard score = new ScoreCard();
+		score.keepScore();
+		Die die = new Die();
+		// die.getDieRoll();
+		// die.rollDie();
 
 	}
 
