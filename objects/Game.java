@@ -11,7 +11,8 @@ public class Game {
 	public void runGame() {
 		System.out.println("Game is running");
 		new Player("piet").getPlayerName();
-
+		new Cup().cupMethod();
+		new ScoreCard().keepScore();
 		System.out.println(new Die().getDieRoll());
 
 	}

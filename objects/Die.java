@@ -8,6 +8,7 @@ public class Die {
 	MyUtil utilities = new MyUtil();
 
 	public byte getDieRoll() {
+		System.out.println("You've rolled a: ");
 		return dieRoll;
 	}
 
@@ -22,6 +23,7 @@ public class Die {
 	}
 
 	public byte rollDie() {
+
 		return new Die().getDieRoll();
 	}
 

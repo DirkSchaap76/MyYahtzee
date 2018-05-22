@@ -10,11 +10,6 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Die diceOne = new Die(); System.out.println("this is dieOne: " +
-		 * diceOne.rollDie());
-		 */
-		
 		Game gameOne = new Game();
 		gameOne.runGame();
 	}
